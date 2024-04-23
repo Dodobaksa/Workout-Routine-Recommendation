@@ -1,4 +1,43 @@
 # Workout-Routine-Recommendation-based-on-kspo-datasets
-운동 루틴 추천 대시보드
-<br>
-dashboard URL: https://workout-routine-recommendation-b7qiks7swnmmqx4uwlwtrp.streamlit.app/
+<div align="center">
+<h2>[2023] 맞춤형 운동 루틴 추천 시스템</h2>
+운동 초보자의 경우, 다양한 운동 루틴을 혼자 계획하기가 어렵다. 또한, 현 시장의 운동 루틴 추천 어플리케이션은 추적기능과 기록기능에 크게 초점이 맞춰져 있으며, 정형화되고 고정된 운동루틴만을 추천한다. 본 프로젝트에서는 현장의 운동 처방사들이 처방한 운동 처방 데이터를 바탕으로, 최소한의 사용자 데이터 입력만으로 매일 새로운 운동 루틴 추천 시스템을 개발하였다.
+</div>
+
+## 목차
+  - [개요](#개요) 
+  - [대시보드 설명](#대시보드-설명)
+  - [데이터 셋 설명](#데이터-셋-설명)
+  - [비고](#비고)
+
+## 개요
+- 프로젝트 이름: 맞춤형 운동 루틴 추천 시스템 🦾
+- 프로젝트 지속기간: 2023.11.13-2023.11.27(2주)
+- 개발 엔진 및 언어: Python
+- 멤버: 임도현(본인)
+
+## 대시보드 설명
+|<img width="1271" alt="대시보드2" src="https://github.com/Dodobaksa/Workout-Routine-Recommendation/assets/97015589/d2fac85b-3660-4ad3-a8cc-636ab27c193b">|<img width="1278" alt="대시보드1" src="https://github.com/Dodobaksa/Workout-Routine-Recommendation/assets/97015589/53bce11a-d562-4146-b455-18083182257d">|
+|:---:|:---:|
+|대시보드 설명|사용자 정보 입력 시 화면|
+
+운동 초보자가 지루함을 느끼지 않고 매일 다양한 운동 루틴을 추천받을 수 있게끔 맞춤형 운동 루틴 추천 대시보드를 개발하게 되었습니다.<br>
+- 사용자 정보를 입력하면 맞춤형 운동 루틴을 추천해줍니다. ⚔️<br>
+나이, 키, 몸무게, 성별과 함께 운동목표를 입력하면 운동목표에 맞는 운동 루틴을 추천해줍니다. 몸무게가 변화될 때마다 각기 다른 운동 루틴을 추천받을 수 있습니다. 5가지의 준비운동 목록과 본 운동 루틴을 추천받을 수 있습니다.
+- 장기 운동 루틴 추천 기능 🎯<br>
+오늘 당장할 수 있는 준비운동과 본 운동을 추천받을 수도 있지만 최대 2주치의 운동 루틴을 추천받을 수도 있습니다. 
+- 운동 영상 검색 기능 🏄🏻<br>
+운동 루틴을 추천받았는 데, 하는 방법을 모르겠다? 하신다면, 대시보드에서 운동 동영상을 바로 검색할 수 있습니다.
+- 기초 대사량과 권장 영양 통계량 조회 기능👶<br>
+대시보드 상단에서 자신의 기초 대사량과 권장되는 칼로리 및 영양소 양에 대해 조회 가능합니다.
+
+## 데이터 셋 설명
+- 데이터 수집 및 통합
+|사용 데이터|기간|출처|URL|
+|---|---|---|---|
+|체력 측정 운동 처방 종 합 데이터|2020~2023|문화 빅데이터 플랫폼|https://www.bigdata-culture.kr /bigdata/user/data_market/det ail.do?id=b3924850-aa65-11ec- 8ee4-95f65f846b27|
+|서울올림픽기념국민체육 진흥공단_국민체력100 동영상 정보|2023|공공 데이터 포털|https://www.data.go.kr/iim/api /selectAPIAcountView.do|
+
+## 비고
+-Requirements
+<img width="598" alt="require" src="https://github.com/Dodobaksa/Workout-Routine-Recommendation/assets/97015589/96ef67bb-35e4-4ba6-b90b-6accf4d5a46e">
