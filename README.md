@@ -33,7 +33,7 @@
 
 ## 데이터 셋 설명
 - 데이터 수집 및 통합
-- 
+
 |사용 데이터|기간|출처|URL|
 |---|---|---|---|
 |체력 측정 운동 처방 종 합 데이터|2020~2023|문화 빅데이터 플랫폼|https://www.bigdata-culture.kr /bigdata/user/data_market/det ail.do?id=b3924850-aa65-11ec- 8ee4-95f65f846b27|
